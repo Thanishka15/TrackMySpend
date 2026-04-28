@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "../styles/dashboard.css";
 import {
   PieChart,
   Pie,
@@ -40,7 +41,10 @@ export default function Dashboard({ expenses, income }) {
 
   return (
     <div className="dashboard-container">
-      <h1 className="dashboard-title">Dashboard</h1>
+      <div className="app-header">
+        <h1 className="app-name">TrackMySpend</h1>
+         <p className="dashboard-title">Dashboard</p>
+      </div>
 
       {/* 🔹 Pie Chart */}
       {pieData.length > 0 && (

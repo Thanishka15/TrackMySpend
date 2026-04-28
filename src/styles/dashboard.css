@@ -95,3 +95,24 @@
   opacity: 0.7;
   font-size: 14px;
 }
+
+.app-header {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.app-name {
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #c084fc, #60a5fa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard-title {
+  font-size: 30px;  
+  font-weight: 700;  
+  color: #ffffff;    
+  margin-top: 6px;
+}
