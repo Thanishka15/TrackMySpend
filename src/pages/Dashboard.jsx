@@ -9,6 +9,9 @@ const COLORS = ["#c084fc", "#60a5fa", "#34d399", "#fbbf24", "#f87171"];
 export default function Dashboard({ expenses, income, user }) {
   const navigate = useNavigate();
 
+  // Guard: don't render until user is available
+  if (!user) return null;
+
   const totalExpenses = expenses.reduce((sum, e) => sum + Number(e.amount), 0);
   const totalIncome = income.reduce((sum, i) => sum + Number(i.amount), 0);
   const balance = totalIncome - totalExpenses;
@@ -29,7 +32,7 @@ export default function Dashboard({ expenses, income, user }) {
         </div>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 6 }}>
           {user.photoURL && (
-        <img src={user.photoURL} referrerPolicy="no-referrer" style={{ width: 36, height: 36, borderRadius: "50%" }} />
+            <img src={user.photoURL} referrerPolicy="no-referrer" style={{ width: 36, height: 36, borderRadius: "50%" }} />
           )}
           <button
             onClick={() => signOut(auth)}
