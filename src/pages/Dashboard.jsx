@@ -28,7 +28,9 @@ export default function Dashboard({ expenses, income, user }) {
           <h2 className="dashboard-title">Dashboard</h2>
         </div>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 6 }}>
-          <img src={user.photoURL} referrerPolicy="no-referrer" style={{ width: 36, height: 36, borderRadius: "50%" }} />
+          {user.photoURL && (
+        <img src={user.photoURL} referrerPolicy="no-referrer" style={{ width: 36, height: 36, borderRadius: "50%" }} />
+          )}
           <button
             onClick={() => signOut(auth)}
             style={{ background: "transparent", color: "#888", border: "1px solid #333", borderRadius: 8, padding: "4px 12px", fontSize: 12, width: "auto", cursor: "pointer" }}
