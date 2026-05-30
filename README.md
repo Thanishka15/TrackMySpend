@@ -1,6 +1,6 @@
 # TrackMySpend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Expense Tracker Progressive Web App (PWA) built with React + Vite to help you track your daily spending, manage expenses, and stay on top of your finances.
 
 
 ## React Compiler
