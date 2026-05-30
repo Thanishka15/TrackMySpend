@@ -152,25 +152,7 @@ TrackMySpend/
 - Cloud sync and multi-device support
 - Recurring transaction reminders
 
----
 
-# Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-Fork the repository and submit a pull request.
-
----
-
-# License
-
-This project is licensed under the MIT License.
-
----
-
-# Author
-
-Built by Thanishka
 
 
 
