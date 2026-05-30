@@ -1,6 +1,6 @@
 # TrackMySpend
 
-rackMySpend is a modern Expense Tracker Progressive Web App (PWA) built using React and Vite. It helps users manage their finances by tracking income, monitoring expenses, and visualizing spending patterns through an interactive dashboard.
+TrackMySpend is a modern Expense Tracker Progressive Web App (PWA) built using React and Vite. It helps users manage their finances by tracking income, monitoring expenses, and visualizing spending patterns through an interactive dashboard.
 The application is fast, responsive, and installable across devices, providing a seamless experience similar to a native mobile app.
 
 
