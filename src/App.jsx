@@ -8,7 +8,7 @@ import AddIncome from "./pages/AddIncome";
 import AddExpense from "./pages/AddExpense";
 import Transactions from "./pages/Transactions";
 import Investments from "./pages/Investments";
-import Login from "./pages/Login";
+import login from "./pages/login";
 
 function App() {
   const [user, setUser] = useState(undefined);
