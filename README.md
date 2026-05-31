@@ -36,12 +36,6 @@ The application is fast, responsive, and installable across devices, providing a
 - Vite
 - npm
 
-## Data Visualization
-- Chart.js / Recharts *(replace with whichever you used)*
-
-## Hosting & Deployment
-- Netlify
-
 ## Progressive Web App Features
 - Service Workers
 - Web App Manifest
