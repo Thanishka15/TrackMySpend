@@ -249,7 +249,6 @@ button:disabled {
   margin-top: 6px;
 }
 
-/* 🔴 Delete Button (fully isolated) */
 .delete-btn {
   all: unset;
   color: #9ca3af;
@@ -262,3 +261,11 @@ button:disabled {
   color: #ef4444;
 }
  
+.login-title {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #c084fc, #60a5fa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
