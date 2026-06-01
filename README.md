@@ -24,7 +24,7 @@ The application is fast, responsive, and installable across devices, providing a
 
 ---
 
-# Tech Stack
+# Tech Stack 
 
 ## Frontend
 - React
@@ -126,7 +126,6 @@ TrackMySpend/
 │   ├── components/
 │   ├── pages/
 │   ├── assets/
-│   ├── charts/
 │   └── App.jsx
 │
 ├── package.json
