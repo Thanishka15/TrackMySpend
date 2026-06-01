@@ -16,9 +16,8 @@ The application is fast, responsive, and installable across devices, providing a
 - Responsive design optimized for desktop and mobile devices
 - Progressive Web App (PWA) support
 - Installable on supported browsers and devices
-- Fast loading and smooth performance powered by Vite
+- Fast loading and smooth performance powered by Vite, simple and user-friendly interface
 - Persistent transaction tracking
-- Simple and user-friendly interface
 - Secure authentication with sign-in and sign-out functionality
 - Organized financial overview for better expense management
 
