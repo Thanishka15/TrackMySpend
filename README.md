@@ -143,7 +143,7 @@ TrackMySpend/
 - Dark/light theme toggle
 - Export transactions to CSV or PDF
 - Cloud sync and multi-device support
-- Recurring transaction reminders
+- Recurring transaction remainders 
 
 
 
