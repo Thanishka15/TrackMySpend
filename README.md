@@ -139,7 +139,6 @@ TrackMySpend/
 - Expense category filters
 - Budget planning and savings goals
 - Expense analytics and advanced charts
-- Dark/light theme toggle
 - Export transactions to CSV or PDF
 - Cloud sync and multi-device support
 - Recurring transaction remainders 
