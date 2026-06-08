@@ -29,7 +29,7 @@ The application is fast, responsive, and installable across devices, providing a
 - React
 - JavaScript
 - HTML5
-- CSS3
+- CSS
 
 ## Build & Development Tools
 - Vite
